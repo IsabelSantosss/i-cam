@@ -32,6 +32,7 @@ const Home = () => {
 
 	return (
 		<div id="home">
+			<h2>Teste</h2>
 			{photos && photos.map((photo) => (
 				<div key={photo._id}>
 					<PhotoItem photo={photo} />
